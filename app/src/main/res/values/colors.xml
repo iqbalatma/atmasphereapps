@@ -10,6 +10,13 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
+    <color name="background">#004943</color>
+    <color name="background2">#45070F</color>
+    <color name="background3">#082C6E</color>
+    <color name="background4">#C50D2A68</color>
+
+
+
     <!-- Screens background color-->
     <color name="bg_screen1">#800000</color>
     <color name="bg_screen2">#006400</color>
