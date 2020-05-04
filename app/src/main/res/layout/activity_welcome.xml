@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 <!--    tools:showIn="@layout/activity_welcome"-->
 
-    <include layout="@layout/activity_main" />
+    <include layout="@layout/activity_home" />
 
 <!--    <androidx.support.v4.view.ViewPager-->
 <!--        android:id="@+id/view_pager"-->

@@ -21,6 +21,16 @@ import android.widget.TextView;
 
 public class Welcome extends AppCompatActivity  {
 
+    /*
+    NIM             : 10117124
+    Nama            : Iqbal Atma Muliawan
+    Kelas           : IF4
+    Matakuliah      : Aplikasi Komputasi Bergerak
+
+    3 Mei 2020  : Membuat aktivity welcome, didalamnya terdapat 4 slider sebagai walkthrough berdasarkan coding referensi dari orang lain
+
+     */
+
     private ViewPager viewPager;
     private MyViewPagerAdapter myViewPagerAdapter;
     private LinearLayout dotsLayout;
@@ -120,7 +130,7 @@ public class Welcome extends AppCompatActivity  {
 
     private void launchHomeScreen() {
         prefManager.setFirstTimeLaunch(false);
-        startActivity(new Intent(Welcome.this, MainActivity.class));
+        startActivity(new Intent(Welcome.this, Home.class));
         finish();
     }
 

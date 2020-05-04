@@ -4,6 +4,14 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 public class PrefManager {
+     /*
+    NIM             : 10117124
+    Nama            : Iqbal Atma Muliawan
+    Kelas           : IF4
+    Matakuliah      : Aplikasi Komputasi Bergerak
+
+    3 Mei 2020  : Membuat kelas pref manager untuk menyimpan configurasi aplikasi
+     */
 
     SharedPreferences pref;
     SharedPreferences.Editor editor;

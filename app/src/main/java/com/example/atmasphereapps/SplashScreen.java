@@ -8,12 +8,14 @@ import android.os.Handler;
 
 public class SplashScreen extends AppCompatActivity {
 
-//    @Override
-//    protected void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_splash_screen);
-//    }
-//}
+    /*
+       NIM             : 10117124
+       Nama            : Iqbal Atma Muliawan
+       Kelas           : IF4
+       Matakuliah      : Aplikasi Komputasi Bergerak
+
+       3 Mei 2020  : Membuat activity splash screen untuk menampilkan layout splash screen selama 4 detik kemudian pindah ke activity welcome
+        */
     private int waktu_loading=4000;
 
     //4000=4 detik
