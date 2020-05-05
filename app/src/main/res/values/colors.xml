@@ -6,9 +6,11 @@
     <color name="colorNavigationIcon">#dae9f6</color>
     <color name="colorNavigationText">#ffffff</color>
 
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#373840</color>
+    <color name="colorPrimaryDark">#B8B8B8</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="texUtama">#20212B</color>
 
     <color name="background">#004943</color>
     <color name="background2">#45070F</color>

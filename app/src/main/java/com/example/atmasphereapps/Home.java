@@ -21,6 +21,7 @@ public class Home extends AppCompatActivity implements BottomNavigationView.OnNa
     Matakuliah      : Aplikasi Komputasi Bergerak
 
     3 Mei 2020  : Membuat aktivity home sebagai tampilan utama dari aplikasi
+    5 Mei 2020 : Mengganti warna primer, mengganti background semua fragment
      */
 
     Button button;

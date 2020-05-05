@@ -17,6 +17,7 @@ public class HomeFragment extends Fragment {
     Matakuliah      : Aplikasi Komputasi Bergerak
 
     4 Mei 2020  : Membuat aktivity home_fragment untuk logic ketika bottomviewer diklik. juga membuat layout home untuk tampilan fragment
+    5 Mei 2020 : Mengerjakan layout home fragment berisi profil dan hobi, mengisi konten fragment home berupa deskripsi diri, profile, dan interest
      */
     @Nullable
     @Override
