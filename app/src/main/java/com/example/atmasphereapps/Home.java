@@ -3,6 +3,8 @@ package com.example.atmasphereapps;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,6 +13,8 @@ import android.view.View;
 import android.widget.Button;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+
+import java.util.ArrayList;
 
 public class Home extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
 
@@ -23,6 +27,9 @@ public class Home extends AppCompatActivity implements BottomNavigationView.OnNa
     3 Mei 2020  : Membuat aktivity home sebagai tampilan utama dari aplikasi
     5 Mei 2020 : Mengganti warna primer, mengganti background semua fragment
      */
+
+
+
 
     Button button;
 
