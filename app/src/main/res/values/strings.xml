@@ -21,7 +21,7 @@
 
 
 
-    // TODO: 22/02/18
+    <!--Menu Buttom Navigation-->
     <string name="home">Home</string>
     <string name="activity">Daily Activity</string>
     <string name="gallery">Gallery</string>
@@ -31,6 +31,7 @@
 
 
 
+    <!--Fragment Home-->
     <string name="fhome_nama">Iqbal Atma Muliawan</string>
     <string name="fhome_lahir">Lahir di Selakau, 16 Februari 1999</string>
     <string name="fhome_desk">Iqbal merupakan anak kedua dari dua bersaudara.
@@ -51,5 +52,18 @@
         Punya bisnis rumah makan ketika SMA karena suka masak.
         Sekarang menjadi enginer berharap bisa freelance bergaji 10 juta seminggu
     </string>
-    <string name="fhome_ketertarikanDesk">Tertarik dengan dunia fotografi. Lebih cenderung ke landscape karena memang Iqbal senang liburan menjelajah alam. Iqbal senang mendaki gunung, main ke pantai, bahkan jelajah hutan. Selain mendaki gunung dan hal-hal yang berkaitan dengan alam Iqbal juga senang membaca buku. Buku pertama yang membuatnya senang membaca hingga sekarang adalah "Sepotong Hati yang Baru" karya Tere Liye. Setelah buku itu Iqbal mulai senang membaca buku. Setiap bulan menyisihkan uang jajan untuk membeli buku. Kalau di yotube Iqbal juga senang mendengarkan pemaparan orang-orang terkait ekonomi, politik, bahkan geostrategis. Iqbal juga senang bermain game. Sudah banyak game yang pernah dimainkan tapi saat ini hanya ada beberapa game yang masih dimainkan seperti WWZ, R6, World of Warship.</string>
+    <string name="fhome_ketertarikanDesk">Tertarik dengan dunia fotografi.
+        Lebih cenderung ke landscape karena memang Iqbal senang liburan menjelajah alam.
+        Iqbal senang mendaki gunung, main ke pantai, bahkan jelajah hutan.
+        Selain mendaki gunung dan hal-hal yang berkaitan dengan alam Iqbal juga senang membaca buku.
+        Buku pertama yang membuatnya senang membaca hingga sekarang adalah "Sepotong Hati yang Baru" karya Tere Liye.
+        Setelah buku itu Iqbal mulai senang membaca buku. Setiap bulan menyisihkan uang jajan untuk membeli buku.
+        Kalau di yotube Iqbal juga senang mendengarkan pemaparan orang-orang terkait ekonomi, politik, bahkan geostrategis.
+        Iqbal juga senang bermain game. Sudah banyak game yang pernah dimainkan tapi saat ini hanya ada beberapa
+        game yang masih dimainkan seperti WWZ, R6, World of Warship.</string>
+
+
+
+    <!--Fragment Gallery-->
+
 </resources>

@@ -19,10 +19,13 @@ public class HomeFragment extends Fragment {
     4 Mei 2020  : Membuat aktivity home_fragment untuk logic ketika bottomviewer diklik. juga membuat layout home untuk tampilan fragment
     5 Mei 2020 : Mengerjakan layout home fragment berisi profil dan hobi, mengisi konten fragment home berupa deskripsi diri, profile, dan interest
      */
-    @Nullable
-    @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.home, container, false);
-        return view;
+
+
+
+        @Nullable
+        @Override
+        public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+            View view = inflater.inflate(R.layout.home, container, false);
+            return view;
+        }
     }
-}
