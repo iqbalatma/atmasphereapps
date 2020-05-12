@@ -41,10 +41,10 @@ public class GalleryFragment extends Fragment {
         data.add(new LocalImages(R.drawable.gallery_2));
         data.add(new LocalImages(R.drawable.gallery_3));
         data.add(new LocalImages(R.drawable.gallery_4));
-//        data.add(new LocalImages(R.drawable.gallery_5));
-//        data.add(new LocalImages(R.drawable.gallery_6));
-//        data.add(new LocalImages(R.drawable.gallery_7));
-//        data.add(new LocalImages(R.drawable.gallery_8));
+        data.add(new LocalImages(R.drawable.gallery_5));
+        data.add(new LocalImages(R.drawable.gallery_6));
+        data.add(new LocalImages(R.drawable.gallery_7));
+        data.add(new LocalImages(R.drawable.gallery_8));
 //            data.add(new LocalImages(R.drawable.jawabanone));
 
 

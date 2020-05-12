@@ -16,7 +16,7 @@ public class SplashScreen extends AppCompatActivity {
 
        3 Mei 2020  : Membuat activity splash screen untuk menampilkan layout splash screen selama 4 detik kemudian pindah ke activity welcome
         */
-    private int waktu_loading=4000;
+    private int waktu_loading=2500;
 
     //4000=4 detik
 
