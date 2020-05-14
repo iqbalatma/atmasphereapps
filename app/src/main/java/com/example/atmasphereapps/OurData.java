@@ -9,6 +9,7 @@ public class OurData {
 
     10 Mei 2020 : Membuat our data untuk menyimpan data yang akan dipanggil.
     12 Mei 2020 : Mengupdate ourdata untuk fragment music
+    14 Mei 2020 : Menambahkan data untuk friendlist dan juga daily
      */
     public static String[] title = new String[]{
             "asdasd",
@@ -23,10 +24,18 @@ public class OurData {
     };
 
 
-    public static String[] title2 = new String[]{
-            "asdasd11111111111111",
-            "asdasd22222222222",
-            "asdasdasd3333333333"
+    public static String[] friendlist_daily = new String[]{
+            "Rizq Aldi Perdana a.k.a Beng-beng",
+            "Seto Z. a.k.a Setosaurus",
+            "Septiap a.k.a Zente",
+            "Risky K. a.k.a ipul",
+            "Arif N.",
+            "Aditya a.k.a Ucok",
+            "Adhitya R.P. a.k.a PUCK",
+            "Juan Lazuardo",
+            "Hafidh Fajar A.",
+            "Ananda Salsabila a.k.a Caca",
+            "Dian H.P."
     };
     public static int[] picturePath2 = new int[]{
             R.drawable.jawabanone,
@@ -34,10 +43,32 @@ public class OurData {
             R.drawable.jawabanthree
     };
 
-    public static String[] title3 = new String[]{
-            "asdasd",
-            "asdasd",
-            "asdasdasd"
+    public static String[] hari_daily = new String[]{
+            "Bermain R6",
+            "Bermain World of Warship",
+            "Belajar CodeIgniter",
+            "Menonton Youtube",
+            "Membuka Instagram",
+            "Membuka Twitter"
+
+    };
+
+    public static int[] dailyPicturePath = new int[]{
+            R.drawable.daily_rainbow_six_siege,
+            R.drawable.daily_world_of_warship,
+            R.drawable.daily_codeigniter,
+            R.drawable.daily_youtube,
+            R.drawable.daily_instagram,
+            R.drawable.daily_twitter,
+
+
+
+            R.drawable.daily_rainbow_six_siege,
+            R.drawable.daily_world_of_warship,
+            R.drawable.daily_codeigniter,
+            R.drawable.daily_youtube,
+            R.drawable.daily_instagram,
+            R.drawable.daily_twitter
     };
 
 

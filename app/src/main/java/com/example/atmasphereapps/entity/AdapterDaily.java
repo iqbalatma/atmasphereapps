@@ -60,7 +60,7 @@ public class AdapterDaily extends RecyclerView.Adapter<AdapterDaily.DailyViewHol
 
         public DailyViewHolder(View itemView) {
             super(itemView);
-            txtHari = (TextView) itemView.findViewById(R.id.hari);
+            txtHari = (TextView) itemView.findViewById(R.id.item_daily_activity);
 //            txtKegiatan = (TextView) itemView.findViewById(R.id.kegiatan);
 //            txtPelajaran = (TextView) itemView.findViewById(R.id.pelajaran);
 //            txtGame = (TextView) itemView.findViewById(R.id.game);

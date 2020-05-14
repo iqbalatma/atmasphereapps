@@ -22,6 +22,7 @@ public class DailyFragment extends Fragment {
 
     4 Mei 2020  : Membuat aktivity daily_fragment untuk logic ketika bottomviewer diklik. juga membuat layout daily untuk tampilan fragment
     10 Mei 2020 : Mnegupdate daily fragment untuk diterapkan 2 recycler view
+    14 Mei 2020 : Mengubah recyclerview kedua menjadi horizontal
      */
     @Nullable
     @Override
@@ -34,11 +35,16 @@ public class DailyFragment extends Fragment {
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(layoutManager);
 
+
+//        LinearLayoutManager horizontalLayoutManagaer = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
         RecyclerView recyclerView2 = (RecyclerView) view.findViewById(R.id.recycler_view_daily2);
         ListAdapter2 listAdapter2 = new ListAdapter2();
         recyclerView2.setAdapter(listAdapter2);
-        RecyclerView.LayoutManager layoutManager2 = new LinearLayoutManager(getActivity());
-        recyclerView2.setLayoutManager(layoutManager2);
+        LinearLayoutManager horizontalLayoutManager
+                = new LinearLayoutManager(getActivity(), LinearLayoutManager.HORIZONTAL, false);
+//        RecyclerView.LayoutManager layoutManager2 = new LinearLayoutManager(getActivity(), LinearLayoutManager.HORIZONTAL);
+
+        recyclerView2.setLayoutManager(horizontalLayoutManager);
 
         return view;
     }

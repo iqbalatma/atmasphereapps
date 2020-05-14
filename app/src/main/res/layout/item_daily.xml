@@ -17,7 +17,7 @@
             android:id="@+id/item_daily_image"></ImageView>
         <!-- TextView Nama Mahasiwa -->
         <TextView
-            android:id="@+id/hari"
+            android:id="@+id/item_daily_activity"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="new text"

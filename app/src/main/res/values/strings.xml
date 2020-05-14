@@ -66,4 +66,9 @@
 
     <!--Fragment Gallery-->
 
+
+
+<!--    Fragment Daily -->
+    <string name="daily_my_daily">My Daily Activity</string>
+
 </resources>
