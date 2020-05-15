@@ -162,14 +162,17 @@
                 android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="buka_email"
+                android:background="@drawable/button_about"
+                android:fontFamily="@font/merienda_one"
+                android:onClick="buka_dialog"
                 android:text="About"
+                android:textColor="@color/cardview_light_background"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.903"
+                app:layout_constraintHorizontal_bias="0.938"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.911" />
+                app:layout_constraintVertical_bias="0.871" />
 
             <ImageView
                 android:id="@+id/imageView9"
@@ -183,6 +186,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.906"
                 app:srcCompat="@drawable/ic_email" />
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -17,6 +17,11 @@
     <color name="background3">#082C6E</color>
     <color name="background4">#C50D2A68</color>
 
+    <color name="kura_kura">#44a1ac</color>
+    <color name="home">#e04f5f</color>
+    <color name="buble">#49a0ae</color>
+    <color name="checklist">#32bea6</color>
+
 
 
     <!-- Screens background color-->

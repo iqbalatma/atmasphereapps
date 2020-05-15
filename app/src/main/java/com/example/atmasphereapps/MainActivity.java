@@ -52,8 +52,12 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         startActivity(blog);
     }
     public void buka_email(View view) {
-        Intent blog = new Intent(Intent.ACTION_VIEW, Uri.parse("mailto:iqbalatma89@gmail.com"));
+        Intent blog = new Intent(Intent.ACTION_VIEW, Uri.parse("mailto:iqbalatma@gmail.com"));
         startActivity(blog);
+    }
+    public void buka_dialog(View view) {
+        DialogFragment dialogFragment = new DialogFragment();
+        dialogFragment.show(getSupportFragmentManager(), "DialogFragment");
     }
 
     private void setupBottomNavigation(Bundle savedInstanceState) {
