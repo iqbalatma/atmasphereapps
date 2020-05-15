@@ -9,14 +9,6 @@
 
 
 
-<!--        <ImageView-->
-<!--            android:layout_width="0dp"-->
-<!--            android:layout_height="@dimen/dimen50"-->
-<!--            android:scaleType="fitCenter"-->
-<!--            android:layout_margin="@dimen/dimen8"-->
-<!--            android:layout_weight="1"-->
-<!--            android:id="@+id/item_music_image"></ImageView>-->
-        <!-- TextView Nama Mahasiwa -->
         <TextView
             android:id="@+id/item_music_text"
             android:layout_width="0dp"

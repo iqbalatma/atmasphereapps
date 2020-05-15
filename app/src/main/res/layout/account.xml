@@ -21,13 +21,15 @@
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Find Me Here"
+                android:text="@string/account_findme"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.89"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.37" />
+                app:layout_constraintVertical_bias="0.37"
+                android:fontFamily="@font/merienda_one"
+                android:textColor="@color/texUtama"/>
 
             <TextView
                 android:id="@+id/id_nama"
@@ -105,25 +107,30 @@
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Contact Me"
+                android:text="@string/account_contactme"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.043"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.371" />
+                app:layout_constraintVertical_bias="0.371"
+                android:fontFamily="@font/merienda_one"
+                android:textColor="@color/texUtama"
+                />
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0895-3511-72040"
+                android:text="@string/account_phone_number"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.051"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.457" />
+                app:layout_constraintVertical_bias="0.457"
+                android:fontFamily="@font/merienda_one"
+                android:textColor="@color/texUtama"/>
 
             <ImageView
                 android:id="@+id/imageView4"

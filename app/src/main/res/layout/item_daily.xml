@@ -15,7 +15,7 @@
             android:layout_margin="@dimen/dimen8"
             android:layout_weight="1"
             android:id="@+id/item_daily_image"></ImageView>
-        <!-- TextView Nama Mahasiwa -->
+
         <TextView
             android:id="@+id/item_daily_activity"
             android:layout_width="0dp"
@@ -23,82 +23,12 @@
             android:text="new text"
             android:textSize="22dp"
             android:layout_weight="3"
-            android:layout_margin="22dp"/>
+            android:layout_margin="22dp"
+            android:fontFamily="@font/merienda_one"
+            android:textColor="@color/texUtama"/>
 
-<!--        &lt;!&ndash; TextView Npm Mahasiswa &ndash;&gt;-->
-<!--        <TextView-->
-<!--            android:id="@+id/kegiatan"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content" />-->
-
-<!--        &lt;!&ndash; TextView NoHp Mahasiswa &ndash;&gt;-->
-<!--        <TextView-->
-<!--            android:id="@+id/pelajaran"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content" />-->
-<!--        &lt;!&ndash; TextView NoHp Mahasiswa &ndash;&gt;-->
-<!--        <TextView-->
-<!--            android:id="@+id/game"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content" />-->
-<!--        &lt;!&ndash; TextView NoHp Mahasiswa &ndash;&gt;-->
-<!--        <TextView-->
-<!--            android:id="@+id/note"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content" />-->
 
 
 
 </LinearLayout>
 
-
-
-<!--    <?xml version="1.0" encoding="utf-8"?>-->
-<!--<androidx.cardview.widget.CardView-->
-<!--xmlns:android="http://schemas.android.com/apk/res/android"-->
-<!--xmlns:card_view="http://schemas.android.com/apk/res-auto"-->
-<!--android:layout_width="match_parent"-->
-<!--android:layout_height="wrap_content"-->
-<!--card_view:cardCornerRadius="6dp"-->
-<!--card_view:cardElevation="3dp"-->
-<!--card_view:cardUseCompatPadding="true">-->
-
-<!--<LinearLayout-->
-<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
-<!--    android:layout_width="match_parent"-->
-<!--    android:layout_height="wrap_content"-->
-<!--    android:layout_margin="5dp"-->
-<!--    android:orientation="vertical"-->
-<!--    android:padding="5dp">-->
-
-<!--    &lt;!&ndash; TextView Nama Mahasiwa &ndash;&gt;-->
-<!--    <TextView-->
-<!--        android:id="@+id/hari"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content" />-->
-
-<!--    &lt;!&ndash; TextView Npm Mahasiswa &ndash;&gt;-->
-<!--    <TextView-->
-<!--        android:id="@+id/kegiatan"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content" />-->
-
-<!--    &lt;!&ndash; TextView NoHp Mahasiswa &ndash;&gt;-->
-<!--    <TextView-->
-<!--        android:id="@+id/pelajaran"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content" />-->
-<!--    &lt;!&ndash; TextView NoHp Mahasiswa &ndash;&gt;-->
-<!--    <TextView-->
-<!--        android:id="@+id/game"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content" />-->
-<!--    &lt;!&ndash; TextView NoHp Mahasiswa &ndash;&gt;-->
-<!--    <TextView-->
-<!--        android:id="@+id/note"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content" />-->
-
-<!--</LinearLayout>-->
-
-<!--</androidx.cardview.widget.CardView>-->

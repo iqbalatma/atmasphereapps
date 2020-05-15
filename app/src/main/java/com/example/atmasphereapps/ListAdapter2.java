@@ -50,7 +50,7 @@ public class ListAdapter2 extends RecyclerView.Adapter {
 
         public void bindView(int position){
             mItemText.setText(OurData.friendlist_daily[position]);
-            mItemImage.setImageResource(OurData.dailyPicturePath[position]);
+            mItemImage.setImageResource(OurData.firendlistDailyPicturePath[position]);
 
 
         }

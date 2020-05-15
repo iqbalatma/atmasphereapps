@@ -71,4 +71,9 @@
 <!--    Fragment Daily -->
     <string name="daily_my_daily">My Daily Activity</string>
 
+<!--    Fragment Account -->
+    <string name="account_contactme">Contact Me</string>
+    <string name="account_phone_number">0895-3511-72040</string>
+    <string name="account_findme">Find Me Here</string>
+
 </resources>
